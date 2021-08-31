@@ -1,20 +1,27 @@
 // ---Dependencys
-import React, { useState } from 'react';
+import React from 'react';
+import { Row, Col } from 'antd';
+// ---Redux
+import { useSelector } from 'react-redux';
+// ---Types
+import { ReduxState } from 'Reducers';
 // ---Components
-import Home from 'Comp/Home';
+import HomeTitle from 'Comp/Home/HomeTitle';
+import HomeDetails from 'Comp/Home/HomeDetails';
 
 // ------------------------------------------ COMPONENT-----------------------------------------
 function HomeCont(): React.ReactElement {
-  const [showList, setShowList] = useState(false);
-  function handleclick () {
-    setShowList(!showList);
-    console.log('cambio showList', showList);
-  }
-
+  // Redux States
+  const { isMovil } = useSelector((reducers: ReduxState) => reducers.appInfoReducer);
   return (
-    <>
-      <Home handleclick={handleclick} showList={showList} />
-    </>
+    <Row>
+      <Col className={isMovil?'md-top-margin': 'lg-top-margin'} xs={24} sm={24} md={10} lg={12} xl={12} xxl={12}>
+        <HomeTitle />
+      </Col>
+      <Col className={isMovil?'sm-top-margin': 'md-top-margin'} xs={24} sm={24} md={14} lg={12} xl={12} xxl={12}>
+        <HomeDetails />
+      </Col>
+    </Row>
   );
 }
 

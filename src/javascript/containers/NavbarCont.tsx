@@ -13,7 +13,6 @@ import { ReduxState } from 'Reducers';
 import ClientMenu from 'Comp/NavBar/ClientMenu';
 import GlobalComponents from 'Comp/NavBar/GlobalComponents';
 // ---Others
-import logo from 'Images/logoStoreL.png';
 import isMovilDetector from 'Others/isMovilDetector';
 
 // ------------------------------------------ COMPONENT-----------------------------------------
@@ -38,7 +37,7 @@ const NavbarCont = withRouter(props => {
 
   return (
     <>
-      <ClientMenu currentPath={currentPath} isMovil={isMovil} logo={logo} />
+      <ClientMenu currentPath={currentPath} isMovil={isMovil} />
       <GlobalComponents />
     </>
   );

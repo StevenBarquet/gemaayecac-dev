@@ -1,8 +1,10 @@
 // ---Dependencys
 import React, { useState, ReactElement } from 'react';
-import { MenuFoldOutlined, MenuOutlined } from '@ant-design/icons';
+import { MenuFoldOutlined, MenuOutlined, HomeOutlined, BarsOutlined, UserOutlined, ContactsOutlined } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
 import { Row, Col } from 'antd';
+// ---Components
+import ClientLogo from 'Comp/NavBar/ClientLogo'
 // ---Others
 import { appConfig } from 'Others/store-config';
 
@@ -14,34 +16,49 @@ function JustButtons(props: AuxProps1) {
   const { currentPath } = props;
   return (
     <>
-      <Col xs={24} sm={24} lg={5}>
+      <Col xs={24} sm={24} lg={6}>
         <Link to="/">
           <div
             className={currentPath === '/' ? 'nav-btn nav-border' : 'nav-btn'}
           >
+            <HomeOutlined />
             Inicio
           </div>
         </Link>
       </Col>
-      <Col xs={24} sm={24} lg={5}>
+      <Col xs={24} sm={24} lg={6}>
         <Link to={`/img?${appConfig.productsURL}`}>
           <div
             className={
               currentPath === '/img' ? 'nav-btn nav-border' : 'nav-btn'
             }
           >
-            Img Example
+            <BarsOutlined />
+            Servicios
           </div>
         </Link>
       </Col>
-      <Col xs={24} sm={24} lg={5}>
-        <Link to="/rastreo">
+      <Col xs={24} sm={24} lg={6}>
+        <Link to="/cliente">
           <div
             className={
-              currentPath === '/rastreo' ? 'nav-btn nav-border' : 'nav-btn'
+              currentPath === '/cliente' ? 'nav-btn nav-border' : 'nav-btn'
             }
           >
-            Rastreo
+            <UserOutlined />
+            Cliente
+          </div>
+        </Link>
+      </Col>
+      <Col xs={24} sm={24} lg={6}>
+        <Link to="/contacto">
+          <div
+            className={
+              currentPath === '/contacto' ? 'nav-btn nav-border' : 'nav-btn'
+            }
+          >
+            <ContactsOutlined />
+            Contacto
           </div>
         </Link>
       </Col>
@@ -51,12 +68,11 @@ function JustButtons(props: AuxProps1) {
 // ------------------------------------------ TYPES-----------------------------------------
 interface Props {
   isMovil: boolean;
-  logo: string;
   currentPath: string;
 }
 // ------------------------------------------ COMPONENT-----------------------------------------
 function ClientMenu(props: Props) : ReactElement {
-  const { isMovil, logo, currentPath } = props;
+  const { isMovil, currentPath } = props;
   const [menuVisible, setMenuVisible] = useState(false);
 
   function changeMenuVisibility() {
@@ -65,14 +81,12 @@ function ClientMenu(props: Props) : ReactElement {
   if (isMovil)
     return (
       <Row className="nav-div">
-        <Col xs={24} sm={24} lg={8}>
+        <Col xs={24} sm={24} md={10} lg={12} xl={16} xxl={18}>
           <Link to="/">
-            <div className="to-home">
-              <img src={logo} alt="Shelly" width="100%" />
-            </div>
+            <ClientLogo />
           </Link>
         </Col>
-        <Col xs={24} sm={24} lg={16}>
+        <Col xs={24} sm={24} md={14} lg={12} xl={8} xxl={6}>
           <Row>
             <Col xs={24} sm={24} lg={5}>
               <div
@@ -91,14 +105,12 @@ function ClientMenu(props: Props) : ReactElement {
     );
   return (
     <Row className="nav-div">
-      <Col xs={24} sm={24} lg={8}>
+      <Col xs={24} sm={24} md={10} lg={12} xl={12} xxl={16}>
         <Link to="/">
-          <div className="to-home">
-            <img src={logo} alt="Shelly" width="100%" />
-          </div>
+          <ClientLogo />
         </Link>
       </Col>
-      <Col xs={24} sm={24} lg={16}>
+      <Col xs={24} sm={24} md={14} lg={12} xl={12} xxl={8}>
         <Row>
           <JustButtons currentPath={currentPath} />
         </Row>

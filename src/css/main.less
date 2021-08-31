@@ -2,24 +2,65 @@
 h3{
   color: @colorPrimaryText
 }
+h1{
+  color: @colorPrimaryText;
+  border-bottom: 1px solid @colorPrimary;
+  text-align: center;
+  width: 90%;
+  padding: 10px;
+  margin: 0px auto 0px auto;
+  font-size: 40px;
+}
+h2{
+  color: @colorPrimary;
+  padding: 10px;
+  font-size: 28px;
+}
+p{
+  padding: 10px;
+  white-space: pre-line;
+  text-align: left;
+  font-size: 18px;
+}
 //----------------------------------------------Nav-----------------------------------------------
 .nav-div{
-  width: 100%;
+  width: 88%;
   margin-bottom: 35px;
+  background-color: @colorNavButtons;
+  margin: 0px auto 0px auto;
+  border-bottom: 1px solid @colorPrimary;
 }
 .to-home{
   display: block;
-  margin: 10px auto 10px auto ;
+  margin: 0px auto 0px auto ;
   text-align: center;
-  width: 170px;
-  color: @colorNavLogo;
-  font-size: 30px;
+  color: @colorPrimaryTextDark;
+  font-size: 22px;
   span{
     font-size: 14px;
   }
+  img{
+    width: 60px;
+    padding: 5px 0px 10px 0px;
+    display: inline-block;
+  }
+  section{
+    display: inline-block;
+    font-size: 26px;
+    font-weight: bold;
+    color: @colorPrimary;
+    border-right: 1px solid @colorPrimary;
+    padding: 8px;
+    margin-right: 10px;
+    span{
+      font-size: 26px;
+      font-weight: bold;
+      color: @colorPrimaryText;
+    }
+  }
 }
 .nav-btn{
-  width: 98%;
+  width: 90%;
   background-color: @colorNavButtons;
   margin: 10px auto 10px auto ;
   text-align: center;
@@ -32,8 +73,22 @@ h3{
   cursor: pointer;
   &:hover{
     background-color: @colorNavButtonsLigth;
+    svg{
+      color: @colorPrimaryLigth;
+    }
+  }
+  svg{
+    color: @colorPrimary;
+    margin: 0px 4px 0px 4px;
+    font-size: 20px;
   }
 }
 .nav-border{
-  outline: @colorNavNavButtonsText solid 1px;
+  padding-bottom: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  svg{
+    font-size: 16px;
+  }
+  box-shadow: @colorPrimary 2px 4px 2px;
 }

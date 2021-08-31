@@ -3,9 +3,9 @@ export default null;
 export const ownerData = {
   domain: 'shelly-store.com',
   title: {
-    main: 'Shelly',
-    sub: 'store',
-    shortStoreName: 'Shelly'
+    main: 'GEMA',
+    sub: 'AYECAC',
+    shortStoreName: 'Abogados'
   },
   phoneStr: '55 3402 6751',
   phoneMain: 5534026751,
