@@ -5,8 +5,6 @@ import { Link } from 'react-router-dom';
 import { Row, Col } from 'antd';
 // ---Components
 import ClientLogo from 'Comp/NavBar/ClientLogo'
-// ---Others
-import { appConfig } from 'Others/store-config';
 
 // ---AUX COMPONENTS
 interface AuxProps1 {
@@ -27,10 +25,10 @@ function JustButtons(props: AuxProps1) {
         </Link>
       </Col>
       <Col xs={24} sm={24} lg={6}>
-        <Link to={`/img?${appConfig.productsURL}`}>
+        <Link to="/servicios">
           <div
             className={
-              currentPath === '/img' ? 'nav-btn nav-border' : 'nav-btn'
+              currentPath === '/servicios' ? 'nav-btn nav-border' : 'nav-btn'
             }
           >
             <BarsOutlined />

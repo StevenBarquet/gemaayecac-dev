@@ -9,7 +9,7 @@ function Error404Page(): React.ReactElement {
   return (
     <>
       <Helmet>
-        <title>Error 404</title>
+        <title>GEMAAYECAC | Error 404</title>
       </Helmet>
       <Error404Cont />
     </>

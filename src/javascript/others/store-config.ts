@@ -1,7 +1,7 @@
 export default null;
 
 export const ownerData = {
-  domain: 'shelly-store.com',
+  domain: 'gemaayecac.com',
   title: {
     main: 'GEMA',
     sub: 'AYECAC',

@@ -2,18 +2,18 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 // ---Components
-import HomeCont from 'Cont/Home';
+import HomeCont from 'Cont/Mediacion';
 
 // ------------------------------------------ COMPONENT-----------------------------------------
-function HomePage (): React.ReactElement {
+function MediacionPage (): React.ReactElement {
   return (
     <>
       <Helmet>
-        <title>GEMAAYECAC | Inicio</title>
+        <title>GEMAAYECAC | Mediación</title>
       </Helmet>
       <HomeCont />
     </>
   );
 }
 
-export default HomePage;
+export default MediacionPage;

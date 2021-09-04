@@ -80,31 +80,33 @@ module.exports = {
     'jsx-a11y/no-noninteractive-element-interactions': 0,
     'jsx-a11y/accessible-emoji': 0,
     'react/require-default-props': 0,
-    'react/jsx-filename-extension': [
-      1,
-      {
-        extensions: ['.js', '.jsx', '.ts', '.tsx'],
-      },
-    ],
-    radix: 0,
+    'radix': 0,
     'no-shadow': 0,
     'quotes': 0,
     'prettier/prettier': [
       0,
       {
-        singleQuote: true,
-        printWidth: 80,
+        'singleQuote': true,
+        'printWidth': 80,
       },
     ],
     'jsx-a11y/href-no-hash': 'off',
     'jsx-a11y/anchor-is-valid': [
       'warn',
       {
-        aspects: ['invalidHref'],
+        'aspects': ['invalidHref'],
       },
     ],
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 0,
+    // react/jsx
+    'react/jsx-filename-extension': [
+      1,
+      {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
+    ],
+    'react/jsx-props-no-spreading': 0,
 
     // Typescript
     '@typescript-eslint/no-use-before-define': ["error", { "functions": false, "classes": true, "variables": true }],
@@ -114,7 +116,7 @@ module.exports = {
     '@typescript-eslint/no-unused-expressions': [
       2,
       {
-        allowTaggedTemplates: true,
+        'allowTaggedTemplates': true,
       },
     ],
     '@typescript-eslint/no-shadow': [

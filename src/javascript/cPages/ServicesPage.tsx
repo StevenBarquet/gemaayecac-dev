@@ -2,18 +2,18 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 // ---Components
-import ImageExCont from 'Cont/ImageExCont';
+import HomeCont from 'Cont/Services';
 
 // ------------------------------------------ COMPONENT-----------------------------------------
-function ImageExPage (): React.ReactElement {
+function ServicesPage (): React.ReactElement {
   return (
     <>
       <Helmet>
-        <title>Ejemplo con imagen</title>
+        <title>GEMAAYECAC | Servicios</title>
       </Helmet>
-      <ImageExCont />
+      <HomeCont />
     </>
   );
 }
 
-export default ImageExPage;
+export default ServicesPage;
