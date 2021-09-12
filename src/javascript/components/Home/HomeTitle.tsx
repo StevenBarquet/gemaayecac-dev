@@ -1,15 +1,15 @@
 // ---Dependencys
 import React from 'react';
 // ---Others
-import logo from 'Images/logo-full.png';
+import photo from 'Images/gema.jpg';
 import { ownerData } from 'Others/store-config';
 // ------------------------------------------ COMPONENT-----------------------------------------
 function HomeTitle (): React.ReactElement {
   return (
     <>
-      <h1>Acerca de nosotros</h1>
-      <div className="center-block xs-top-margin">
-        <img width="110px" src={logo} alt={ownerData.domain} />
+      <h1>Semblanza</h1>
+      <div className="profile-img-cont">
+        <img src={photo} alt={ownerData.domain} />
       </div>
     </>
   );

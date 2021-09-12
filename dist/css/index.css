@@ -25012,6 +25012,9 @@ p {
   text-align: left;
   font-size: 18px;
 }
+.round-border-10 {
+  border-radius: 10%;
+}
 .nav-div {
   width: 88%;
   margin-bottom: 35px;
@@ -25183,7 +25186,6 @@ p {
   padding: 20px;
 }
 .text-blog-container img {
-  width: 80px;
   display: block;
   margin: 20px auto 15px auto;
 }
@@ -25230,6 +25232,16 @@ p {
 .text-blog-container-mobil article {
   white-space: pre-line;
   font-size: 16px;
+}
+.profile-img-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-img-cont img {
+  margin: 20px auto 20px auto;
+  width: 240px;
+  border-radius: 50%;
 }
 @font-face {
   font-family: 'Questrial';

@@ -1,6 +1,6 @@
 // ---Dependencys
 import React, { useState, ReactElement } from 'react';
-import { MenuFoldOutlined, MenuOutlined, HomeOutlined, BarsOutlined, UserOutlined, ContactsOutlined } from '@ant-design/icons';
+import { MenuFoldOutlined, MenuOutlined, HomeOutlined, BarsOutlined, ContactsOutlined } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
 import { Row, Col } from 'antd';
 // ---Components
@@ -14,7 +14,7 @@ function JustButtons(props: AuxProps1) {
   const { currentPath } = props;
   return (
     <>
-      <Col xs={24} sm={24} lg={6}>
+      <Col xs={24} sm={24} lg={8}>
         <Link to="/">
           <div
             className={currentPath === '/' ? 'nav-btn nav-border' : 'nav-btn'}
@@ -24,7 +24,7 @@ function JustButtons(props: AuxProps1) {
           </div>
         </Link>
       </Col>
-      <Col xs={24} sm={24} lg={6}>
+      <Col xs={24} sm={24} lg={8}>
         <Link to="/servicios">
           <div
             className={
@@ -36,19 +36,7 @@ function JustButtons(props: AuxProps1) {
           </div>
         </Link>
       </Col>
-      <Col xs={24} sm={24} lg={6}>
-        <Link to="/cliente">
-          <div
-            className={
-              currentPath === '/cliente' ? 'nav-btn nav-border' : 'nav-btn'
-            }
-          >
-            <UserOutlined />
-            Cliente
-          </div>
-        </Link>
-      </Col>
-      <Col xs={24} sm={24} lg={6}>
+      <Col xs={24} sm={24} lg={8}>
         <Link to="/contacto">
           <div
             className={

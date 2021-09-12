@@ -4,4 +4,5 @@ export declare global {
   };
   
   module '*.png';
+  module '*.jpg';
 }

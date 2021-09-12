@@ -1,14 +1,38 @@
 // -----------------------------------DATA-----------------------------------
 export const homePageData = {
   title: 'Lic. Gema Ayecac',
-  detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+  detail: 'Gema Ayecac, es abogada por la Universidad Nacional Autónoma de México (UNAM), cuenta con estudios de Maestría por el Instituto Tecnológico Autónomo de México (ITAM). Cuenta con amplia capacitación en diversas instituciones como lo son la Universitat de Barcelona, la Universidad de Buenos Aires, Universidad de Cantabria, Asociación Argentina de Estudios Fiscales, entre otras.\n\nCuenta con 17 años de ejercicio profesional en el área corporativa y fiscal.  Es Socia Fundadora de Consultores y Asesores Especializados, Consultoría creada en el 2010.\n\nEs Mediadora Privada Número 520, certificada por el Tribunal Superior de Justicia de la Ciudad de México: https://www.poderjudicialcdmx.gob.mx/cja/mediacion-privada-2/#\n\nEs Especialista en Mediación y Negociación por el Instituto de Mediación de México (IMM) y se encuentra doctorando en la misma institución. Miembro del Colegio Nacional de Mediadores Certificados (CONAMEC): https://www.conamec.com/docs/MEDIADORES_COLEGIADOS_2021.pdf\n\nEs docente en la Universidad Nacional Autónoma de México y ha sido ponente en diversos foros académicos y empresariales. Actúa también como agente capacitador registrado ante la Secretaría del Trabajo y Previsión Social en sus áreas de competencia.'
 }
 
 export const mediacionPageData = {
   title: 'MEDIACIÓN',
   data: {
-    title: 'MASC',
-    detail:  'La mediación: Mecanismo mediante el cual los intervinientes harán uso de su autonomía formulando opciones de solución alterna.\n\n La conciliación: Mecanismo mediante el cual los intervinientes propondrán las medidas desolución alternas ante el facilitador y éste a su vez podrá presentar alternativas.\n\nLa Junta Restaurativa: Mecanismo con el que las personas víctimas, el imputado y, en su caso,la comunidad afectada, en libre ejercicio de su autonomía, buscan y proponen opciones de solución para lograr un acuerdo que atienda las necesidades y responsabilidades individuales y colectivas.\n\n En síntesis, los MASC ponen fin a las controversias, facilitando los procesos de solución en materia penal. Su principal función es proporcionar medidas alternativas a las partes afectadas y el ahorro de los recursos de los intervinientes y del Estado.'
+    title: '¿QUÉ ES LA MEDIACIÓN?',
+    detail:  'La Mediación es un procedimiento voluntario mediante el cual las personas, con el apoyo de un Mediador que será neutral e imparcial, pueden comunicarse y negociar, para encontrar de manera amigable y satisfactoria la solución legal a su problema de carácter Civil-Mercantil o Familiar.\n\n¿CUALES SON SUS VENTAJAS?\nLa mediación es un mecanismo no adversarial que concede a las partes involucradas en un litigio grandes ventajas, entre las que destacan:\n\n\t- Menor costo económico y emocional\n\t- Resolución en menor tiempo\n\t- No existen ganadores ni perdedores\n\t- La decisión es una construcción de las partes, no una decisión de tercero.\n\t- Es un proceso confidencial\n\t- Los convenios otorgados formalmente tienen la fuerza de cosa juzgada, como una sentencia.\n\t- Los acuerdos y convenios formalizados son oponibles ante terceros mediante inscripción en el Registro Público de la Propiedad y el Comercio*\n\t- Contribuye a la paz.'
+  }
+}
+
+export const prevencionPageData = {
+  title: 'PREVENCIÓN',
+  data: {
+    title: 'Cumplimiento Fiscal y normativo',
+    detail:  'También conocido como Compliance o Tax compliance, implica el cambio de cultura corporativa para migrar, de la gestión reactiva al conflicto hacía la prevención y gestión de riesgos.\n\nLos programas de cumplimiento fiscal y normativo son procesos que incorporan valor a las organizaciones; les permiten crecer sostenidamente y disminuir sensiblemente los riesgos legales, normativos e incluso penales. Estos programas ofrecen solidez a las bases corporativas, apegando el funcionamiento de la sociedad al marco constitucional, legal y reglamentario de nuestro país.\n\n\t- Auditoría preventiva\n\t- Identificación de riesgos\n\t- Plan de cumplimiento y mejora'
+  }
+}
+
+export const defensaPageData = {
+  title: 'DEFENSA',
+  data: {
+    title: '¿Como me puede ayudar?',
+    detail:  'La obligación de pagar nuestros impuestos es fundamental para la construcción de un mejor país, con equidad y bienestar para todos.\n\nNo obstante, las autoridades administrativas y fiscales deben actuar conforme lo disponen los tratados internacionales, la Constitución, las leyes y reglamentos, limitándose siempre a lo que les autorizan estas normas y con absoluto respeto por los derechos fundamentales de todos los contribuyentes.\n\nSabemos que en la práctica pueden acontecer violaciones a estos derechos. Sabemos que una gestión adecuada y una defensa sólida son necesarias, por esto ofrecemos asesoría y servicios de la más alta calidad y con un alto índice de éxito ante:\n\n\t- Atención a Facultades de Comprobación. SAT, Secretaría de Finanzas, IMSS, INFONAVIT.\n\t- Presunción de inexistencia de operaciones realizada por el SAT o por la Secretaría de Finanzas local.\n\t- Defensa fiscal.'
+  }
+}
+
+export const capacitacionPageData = {
+  title: 'CAPACITACIÓN',
+  data: {
+    title: '¿Como me puede ayudar?',
+    detail:  'Los recursos humanos son un componente fundamental del éxito de toda empresa. La normatividad fiscal y corporativa se encuentra en constante cambio por lo que mantener al personal capacitado en el aspecto formal y práctico de las nuevas disposiciones es fundamental para cualquier corporación.\n\nUna gerencia capacitada contará con la información necesaria para tomar decisiones eficientes orientadas a la prevención de riesgos. Los operadores capacitados hacen posible una disminución real en las contingencias y aportar al crecimiento de la organización. (Constancia PDF de registro de Capacitador)'
   }
 }
 
@@ -25,9 +49,14 @@ export const servicesPageData = {
       path: '/mediacion'
     },
     {
-      title: 'LITIGIO',
+      title: 'DEFENSA',
       data: ['Defensa fiscal', 'Civíl - Mercantil', 'Facultades de comprobación', 'Presunción de autoridad'],
-      path: '/litigio'
+      path: '/defensa'
+    },
+    {
+      title: 'CAPACITACIÓN',
+      data: ['Empresarial', 'Inducciones', 'Promocionales'],
+      path: '/capacitacion'
     }
   ]
 }
