@@ -3,12 +3,13 @@ import {
   UPDATE_PARAMS,
   CHANGE_RESPONSIVE,
   UPDATE_PATH,
-  UPDATE_LOADING,
+  UPDATE_LOADING
 } from 'Types';
-import { Dispatch } from 'redux'
-
+import { Dispatch } from 'redux';
+import { RandObj } from '@Declarations';
+import { ResponsiveData } from '@Reducers/appInfo/customTypes';
 // -------------------------------------------ACTIONS------------------------------------
-export const changeResponsiveFlag = (newFlag: boolean) => (dispatch: Dispatch) : void => {
+export const changeResponsiveFlag = (newFlag: ResponsiveData) => (dispatch: Dispatch) : void => {
   dispatch({
     type: CHANGE_RESPONSIVE,
     payload: newFlag
@@ -22,7 +23,7 @@ export const updatePath = (newPath: string) => (dispatch: Dispatch) : void => {
   });
 };
 
-export const updateParams = (newParam: string) => (dispatch: Dispatch) : void => {
+export const updateParams = (newParam: RandObj) => (dispatch: Dispatch) : void => {
   dispatch({
     type: UPDATE_PARAMS,
     payload: newParam
