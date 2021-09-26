@@ -50,7 +50,7 @@ module.exports = {
         type: 'asset/inline',
       },
       {
-        test: /\.(?:ico|gif|png|jpg|jpeg|mp4)$/i,
+        test: /\.(?:ico|gif|png|jpg|webp|jpeg|mp4)$/i,
         type: 'asset/resource',
       }
     ],

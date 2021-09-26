@@ -15,10 +15,10 @@ function HomeCont(): React.ReactElement {
   const { isMovil } = useSelector((reducers: ReduxState) => reducers.appInfoReducer);
   return (
     <Row>
-      <Col className={isMovil?'md-top-margin': 'lg-top-margin'} xs={24} sm={24} md={10} lg={12} xl={12} xxl={12}>
+      <Col className={isMovil?'md-top-margin': 'lg-top-margin'} xs={24} sm={24} md={10} lg={8} xl={8} xxl={8}>
         <HomeTitle />
       </Col>
-      <Col className={isMovil?'sm-top-margin': 'md-top-margin'} xs={24} sm={24} md={14} lg={12} xl={12} xxl={12}>
+      <Col className={isMovil?'sm-top-margin': 'md-top-margin'} xs={24} sm={24} md={14} lg={16} xl={16} xxl={16}>
         <HomeDetails />
       </Col>
     </Row>

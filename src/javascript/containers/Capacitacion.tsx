@@ -9,7 +9,7 @@ import TextBlogContainer from 'CComps/TextBlogContainer';
 import TextBlogContent from 'CComps/TextBlogContent'
 // ---Other
 import { capacitacionPageData } from 'Others/global-data'
-import capacitacionImage from 'Images/capacitacion.jpg'
+import capacitacionImage from 'Images/gemaCapacitacion.webp'
 
 // ------------------------------------------ COMPONENT-----------------------------------------
 function Prevencion(): React.ReactElement {

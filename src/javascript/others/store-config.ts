@@ -5,7 +5,7 @@ export const ownerData = {
   title: {
     main: 'GEMA',
     sub: 'AYECAC',
-    shortStoreName: 'Abogados'
+    shortStoreName: 'ABOGADOS'
   },
   phoneStr: '55 3402 6751',
   phoneMain: 5534026751,

@@ -1,6 +1,6 @@
 // -----------------------------------DATA-----------------------------------
 export const homePageData = {
-  title: 'Lic. Gema Ayecac',
+  title: 'Semblanza',
   detail: 'Gema Ayecac, es abogada por la Universidad Nacional Autónoma de México (UNAM), cuenta con estudios de Maestría por el Instituto Tecnológico Autónomo de México (ITAM). Cuenta con amplia capacitación en diversas instituciones como lo son la Universitat de Barcelona, la Universidad de Buenos Aires, Universidad de Cantabria, Asociación Argentina de Estudios Fiscales, entre otras.\n\nCuenta con 17 años de ejercicio profesional en el área corporativa y fiscal.  Es Socia Fundadora de Consultores y Asesores Especializados, Consultoría creada en el 2010.\n\nEs Mediadora Privada Número 520, certificada por el Tribunal Superior de Justicia de la Ciudad de México: https://www.poderjudicialcdmx.gob.mx/cja/mediacion-privada-2/#\n\nEs Especialista en Mediación y Negociación por el Instituto de Mediación de México (IMM) y se encuentra doctorando en la misma institución. Miembro del Colegio Nacional de Mediadores Certificados (CONAMEC): https://www.conamec.com/docs/MEDIADORES_COLEGIADOS_2021.pdf\n\nEs docente en la Universidad Nacional Autónoma de México y ha sido ponente en diversos foros académicos y empresariales. Actúa también como agente capacitador registrado ante la Secretaría del Trabajo y Previsión Social en sus áreas de competencia.'
 }
 

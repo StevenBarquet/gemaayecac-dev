@@ -6,4 +6,5 @@ export declare global {
   module '*.png';
   module '*.jpg';
   module '*.svg';
+  module '*.webp'
 }
