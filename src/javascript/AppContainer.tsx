@@ -11,6 +11,7 @@ import CapacitacionPage from 'Pages/CapacitacionPage';
 import Error404Page from 'Pages/Error404Page';
 // ---Components
 import NavbarCont from 'Cont/NavbarCont';
+import Footer from 'Cont/Footer';
 
 function AppContainer() : React.ReactElement {
   return (
@@ -25,6 +26,7 @@ function AppContainer() : React.ReactElement {
         <Route exact path="/capacitacion" component={CapacitacionPage} />
         <Route exact path="*" component={Error404Page} />
       </Switch>
+      <Footer />
     </BrowserRouter>
   );
 }
