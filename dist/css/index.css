@@ -25027,19 +25027,19 @@ p {
   margin: 0px auto 0px auto ;
   text-align: center;
   color: #d6d6d6;
-  font-size: 22px;
+  font-size: 15px;
 }
 .to-home span {
   font-size: 14px;
 }
 .to-home img {
-  width: 60px;
+  width: 45px;
   padding: 5px 0px 10px 0px;
   display: inline-block;
 }
 .to-home section {
   display: inline-block;
-  font-size: 26px;
+  font-size: 20px;
   font-weight: bold;
   color: #f47e20;
   border-right: 1px solid #f47e20;
@@ -25047,13 +25047,12 @@ p {
   margin-right: 10px;
 }
 .to-home section span {
-  font-size: 26px;
+  font-size: 20px;
   font-weight: bold;
   color: #ffffff;
 }
 .nav-btn {
   width: 90%;
-  background-color: #6969699d;
   margin: 10px auto 10px auto ;
   text-align: center;
   display: flex;
@@ -25061,28 +25060,59 @@ p {
   justify-content: center;
   height: 50px;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: bold;
   cursor: pointer;
 }
 .nav-btn:hover {
   background-color: #8c8c8c9d;
 }
-.nav-btn:hover svg {
-  color: #f79e55;
-}
-.nav-btn svg {
-  color: #f47e20;
-  margin: 0px 4px 0px 4px;
-  font-size: 20px;
-}
 .nav-border {
-  padding-bottom: 8px;
-  font-size: 20px;
+  padding-bottom: 5px;
+  font-size: 18px;
   font-weight: bold;
-  box-shadow: #f47e20 2px 4px 2px;
+  color: #f47e20;
 }
-.nav-border svg {
+footer {
+  width: 100%;
+  min-height: 70px;
+  background-color: #4242429d;
+  padding: 15px;
+  margin-top: 50px;
+}
+footer h1 {
+  color: #f47e20;
+  font-size: 28px;
+  text-align: center;
+  line-height: 100%;
+  border-bottom: none;
+}
+footer h2 {
+  font-size: 14px;
+  text-align: center;
+  line-height: 100%;
+  margin: 10px 0px -10px 0px;
+  color: #ffffff;
+}
+footer h2 a {
+  color: #f47e20;
+}
+footer .contact-sticker section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .contact-sticker p {
+  color: #ffffff;
   font-size: 16px;
+  text-align: center;
+  margin-top: 5px;
+}
+footer .contact-sticker svg {
+  font-size: 33px;
+  margin: 0px auto 0px auto;
+  display: block;
 }
 .services-card {
   margin: 90px auto 0px auto;
@@ -25241,7 +25271,57 @@ p {
 .profile-img-cont img {
   margin: 20px auto 20px auto;
   width: 240px;
-  border-radius: 50%;
+  border-radius: 10%;
+}
+.profile-name {
+  font-size: 22px;
+}
+.contact-info {
+  margin-top: 120px;
+}
+.contact-info img {
+  width: 80px;
+  display: block;
+  margin: 0px auto 0px auto;
+}
+.contact-info section {
+  margin: 0px auto 0px auto;
+  display: block;
+  width: 220px;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  color: #f47e20;
+  border-bottom: 1px solid #ffffff;
+  padding: 8px;
+}
+.contact-info section span {
+  font-size: 26px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.contact-info div {
+  text-align: center;
+  font-size: 21px;
+  color: #d6d6d6;
+  font-weight: bold;
+}
+.contact-sticker section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-sticker p {
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 5px;
+}
+.contact-sticker svg {
+  font-size: 33px;
+  margin: 0px auto 0px auto;
+  display: block;
 }
 @font-face {
   font-family: 'Questrial';
@@ -25253,7 +25333,7 @@ body {
   margin: 0px;
   padding: 0px;
   background-color: #1d1d1d;
-  background: url(/media/4a608be5be9df220b590.jpg) no-repeat center center fixed;
+  background: url(/media/0714bbebd964e2f39e83.webp) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

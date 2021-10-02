@@ -1,55 +1,21 @@
 // ---Dependencys
 import React from 'react';
-import { Col, Row } from 'antd';
-import {LinkedinOutlined,YoutubeOutlined,WhatsAppOutlined} from '@ant-design/icons';
-// ---CommonComps
+import { Row, Col } from 'antd';
+// ---Components
+import ContactInfo from 'Comp/Contacto/ContactInfo';
 
-export default function Contactos(): React.ReactElement {
+// ------------------------------------------ COMPONENT-----------------------------------------
+function Contacto(): React.ReactElement {
   return (
-    <div className="Texto">
-      <Row>
-        <Col sm={24} lg={12} xl={24} xxl={24}>
-          <h1> Contactos</h1>
-        </Col>
-        <Col sm={24} lg={12} xl={24} xxl={24}>
-          <h2 className="Subtitulo">
-            <span>Puedes contactarnos</span>
-          </h2>
-        </Col>
-        <Col sm={24} lg={12} xl={24} xxl={24}>
-          <p className="Cuerpodeltexto">
-            Por
-            <a href="https://www.linkedin.com/in/gema-ayecac-48498292/">
-              <strong>
-                Linkedin 
-                <LinkedinOutlined style={{fontSize:'30px',color:'white'}} />
-              </strong>
-            </a>
-            <br />
-            <br />
-            <a href="https://www.youtube.com/channel/UChieAIq5Yr_rdmN7vOHNYEg">
-              <strong>
-                Youtube 
-                <YoutubeOutlined style={{fontSize:'30px',color:'white'}} />
-              </strong>
-            </a>
-            <br />
-            <br />
-            <a href="https://www.youtube.com/channel/UChieAIq5Yr_rdmN7vOHNYEg">
-              <strong>
-                WhatsApp 
-                <WhatsAppOutlined style={{fontSize:'30px',color:'white'}} />
-              </strong>
-            </a>
-            <br />
-            <br />
-            <img
-              src="https://gemaayecac.com/media/ff9c2219aca02b4fc6eb.png"
-              alt="gemaayecac.com"
-            />
-          </p>
-        </Col>
-      </Row>
-    </div>
+    <Row>
+      <Col xs={24} sm={24} md={10} lg={10} xl={10} xxl={10}>
+        <ContactInfo />
+      </Col>
+      <Col xs={24} sm={24} md={14} lg={14} xl={14} xxl={14}>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd2fZkDm4-KREHwFh2bM-pLS2bpB8CZysVt73dVelfZdQArIg/viewform?embedded=true" width="640" height="677" frameBorder="0" marginHeight={0} marginWidth={0}>Loading…</iframe>
+      </Col>
+    </Row>
   );
 }
+
+export default Contacto;

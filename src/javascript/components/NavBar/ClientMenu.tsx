@@ -1,6 +1,6 @@
 // ---Dependencys
 import React, { useState, ReactElement } from 'react';
-import { MenuFoldOutlined, MenuOutlined, HomeOutlined, BarsOutlined, ContactsOutlined } from '@ant-design/icons';
+import { MenuFoldOutlined, MenuOutlined } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
 import { Row, Col } from 'antd';
 // ---Components
@@ -19,8 +19,7 @@ function JustButtons(props: AuxProps1) {
           <div
             className={currentPath === '/' ? 'nav-btn nav-border' : 'nav-btn'}
           >
-            <HomeOutlined />
-            Inicio
+            INICIO
           </div>
         </Link>
       </Col>
@@ -31,8 +30,7 @@ function JustButtons(props: AuxProps1) {
               currentPath === '/servicios' ? 'nav-btn nav-border' : 'nav-btn'
             }
           >
-            <BarsOutlined />
-            Servicios
+            SERVICIOS
           </div>
         </Link>
       </Col>
@@ -43,8 +41,7 @@ function JustButtons(props: AuxProps1) {
               currentPath === '/contacto' ? 'nav-btn nav-border' : 'nav-btn'
             }
           >
-            <ContactsOutlined />
-            Contacto
+            CONTACTO
           </div>
         </Link>
       </Col>

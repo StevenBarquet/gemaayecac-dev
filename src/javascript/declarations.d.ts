@@ -7,36 +7,7 @@ export declare global {
   };
   
   module '*.png';
-  module '*.css' {
-    const content: Record<string, string>;
-    export default content;
+  module '*.jpg';
+  module '*.svg';
+  module '*.webp'
 }
-
-
-}
-
-export type RandObj = { [s: string]: unknown; }
-
-export type RandArray = any[] | Array<unknown>
-
-export type AxiosHandler = AxiosError<any> | AxiosResponse<any>
-
-export interface ResponseStandar {
-  // internalError: boolean;
-  response?: AxiosResponse<any>;
-  error?: AxiosError<any>;
-}
-export type RouteAsyncMethod = () => Promise<ResponseStandar>
-
-export interface IDParamsBody {
-  id: string;
-}
-
-export type SimpleTypes = string | boolean | number;
-
-export type ObjLabelValue = {
-  label: string;
-  value: SimpleTypes;
-}
-
-export type SimpleTypesObj = Record<string, SimpleTypes>

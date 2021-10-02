@@ -5,10 +5,11 @@ export const ownerData = {
   title: {
     main: 'GEMA',
     sub: 'AYECAC',
-    shortStoreName: 'Abogados'
+    shortStoreName: 'ABOGADOS'
   },
   phoneStr: '55 3402 6751',
   phoneMain: 5534026751,
+  contactMail: 'gayecac@amasbconsultores.com',
   facebookUrl: 'https://www.facebook.com/SHELLYstore.boot',
   contactLink: 'http://m.me/SHELLYstore.boot',
   instagramUrl: 'https://www.instagram.com/',

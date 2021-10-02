@@ -2,7 +2,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 // ---Components
-import Contactos from 'Cont/Contacto';
+import Contactos from 'Cont/Contactos';
 
 // ------------------------------------------ COMPONENT-----------------------------------------
 function ContactoPage (): React.ReactElement {

@@ -8,10 +8,12 @@ import MediacionPage from 'Pages/MediacionPage';
 import PrevencionPage from 'Pages/PrevencionPage';
 import DefensaPage from 'Pages/DefensaPage';
 import CapacitacionPage from 'Pages/CapacitacionPage';
+import ContactPage from 'Pages/ContactPage';
 import Error404Page from 'Pages/Error404Page';
-import ContactoPage from 'Pages/Contacto';
+import ContactoPage from 'Pages/ContactosPage';
 // ---Components
 import NavbarCont from 'Cont/NavbarCont';
+import Footer from 'Cont/Footer';
 
 function AppContainer() : React.ReactElement {
   return (
@@ -24,9 +26,11 @@ function AppContainer() : React.ReactElement {
         <Route exact path="/prevencion" component={PrevencionPage} />
         <Route exact path="/defensa" component={DefensaPage} />
         <Route exact path="/capacitacion" component={CapacitacionPage} />
-        <Route exact path="/contacto" component={ContactoPage} />
+        <Route exact path="/contactos" component={ContactoPage} />
+        <Route exact path="/contacto" component={ContactPage} />
         <Route exact path="*" component={Error404Page} />
       </Switch>
+      <Footer />
     </BrowserRouter>
   );
 }

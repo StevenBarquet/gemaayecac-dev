@@ -40,25 +40,25 @@ p{
   margin: 0px auto 0px auto ;
   text-align: center;
   color: @colorPrimaryTextDark;
-  font-size: 22px;
+  font-size: 15px;
   span{
     font-size: 14px;
   }
   img{
-    width: 60px;
+    width: 45px;
     padding: 5px 0px 10px 0px;
     display: inline-block;
   }
   section{
     display: inline-block;
-    font-size: 26px;
+    font-size: 20px;
     font-weight: bold;
     color: @colorPrimary;
     border-right: 1px solid @colorPrimary;
     padding: 8px;
     margin-right: 10px;
     span{
-      font-size: 26px;
+      font-size: 20px;
       font-weight: bold;
       color: @colorPrimaryText;
     }
@@ -66,7 +66,6 @@ p{
 }
 .nav-btn{
   width: 90%;
-  background-color: @colorNavButtons;
   margin: 10px auto 10px auto ;
   text-align: center;
   display: flex;
@@ -74,28 +73,62 @@ p{
   justify-content: center;
   height: 50px;
   color: @colorNavNavButtonsText;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: bold;
   cursor: pointer;
   &:hover{
     background-color: @colorNavButtonsLigth;
-    svg{
-      color: @colorPrimaryLigth;
-    }
-  }
-  svg{
-    color: @colorPrimary;
-    margin: 0px 4px 0px 4px;
-    font-size: 20px;
   }
 }
 .nav-border{
-  padding-bottom: 8px;
-  font-size: 20px;
+  padding-bottom: 5px;
+  font-size: 18px;
   font-weight: bold;
-  svg{
-    font-size: 16px;
+  color: @colorPrimary;
+}
+//----------------------------------------FOOTER-------------------------------------
+footer{
+  width: 100%;
+  min-height: 70px;
+  background-color: @colorNavButtonsDark;
+  padding: 15px;
+  margin-top: 50px;
+  h1{
+    color: @colorPrimary;
+    font-size: 28px;
+    text-align: center;
+    line-height: 100%;
+    border-bottom: none;
   }
-  box-shadow: @colorPrimary 2px 4px 2px;
+  h2{
+    font-size: 14px;
+    text-align: center;
+    line-height: 100%;
+    margin: 10px 0px -10px 0px;
+    color: @colorPrimaryText;
+    a{
+      color: @colorPrimary;
+    }
+  }
+  .contact-sticker{
+    section{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    p{
+      color: @colorPrimaryText;
+      font-size: 16px;
+      text-align: center;
+      margin-top: 5px;
+    }
+    svg{
+      font-size: 33px;
+      margin: 0px auto 0px auto;
+      display: block;
+    }
+  }
 }
 //---------------------------------------------SERVICES----------------------------------------------
 .services-card{
@@ -256,7 +289,60 @@ p{
   img{
     margin: 20px auto 20px auto;
     width: 240px;
-    border-radius: 50%;
+    border-radius: 10%;
+  }
+}
+.profile-name{
+  font-size: 22px;
+}
+//-------------------------------------------CONTACTO-------------------------------------------
+.contact-info{
+  margin-top: 120px;
+  img{
+    width: 80px;
+    display: block;
+    margin: 0px auto 0px auto;
+  }
+  section{
+    margin: 0px auto 0px auto;
+    display: block;
+    width: 220px;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    color: @colorPrimary;
+    border-bottom: 1px solid @colorPrimaryText;
+    padding: 8px;
+    span{
+      font-size: 26px;
+      font-weight: bold;
+      color: @colorPrimaryText;
+    }
+  }
+  div{
+    text-align: center;
+    font-size: 21px;
+    color: @colorPrimaryTextDark;
+    font-weight: bold;
+  }
+}
+.contact-sticker{
+  section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  p{
+    color: @colorPrimaryText;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 5px;
+  }
+  svg{
+    font-size: 33px;
+    margin: 0px auto 0px auto;
+    display: block;
   }
 }
 
