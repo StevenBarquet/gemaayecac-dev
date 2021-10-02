@@ -7,8 +7,8 @@ export const homePageData = {
 export const mediacionPageData = {
   title: 'MEDIACIÓN',
   data: {
-    title: '¿QUÉ ES LA MEDIACIÓN?',
-    detail:  'La Mediación es un procedimiento voluntario mediante el cual las personas, con el apoyo de un Mediador que será neutral e imparcial, pueden comunicarse y negociar, para encontrar de manera amigable y satisfactoria la solución legal a su problema de carácter Civil-Mercantil o Familiar.\n\n¿CUALES SON SUS VENTAJAS?\nLa mediación es un mecanismo no adversarial que concede a las partes involucradas en un litigio grandes ventajas, entre las que destacan:\n\n\t- Menor costo económico y emocional\n\t- Resolución en menor tiempo\n\t- No existen ganadores ni perdedores\n\t- La decisión es una construcción de las partes, no una decisión de tercero.\n\t- Es un proceso confidencial\n\t- Los convenios otorgados formalmente tienen la fuerza de cosa juzgada, como una sentencia.\n\t- Los acuerdos y convenios formalizados son oponibles ante terceros mediante inscripción en el Registro Público de la Propiedad y el Comercio*\n\t- Contribuye a la paz.'
+    title: '¿Es mediable tu conflicto?',
+    detail:  ''
   }
 }
 

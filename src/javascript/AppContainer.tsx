@@ -9,6 +9,7 @@ import PrevencionPage from 'Pages/PrevencionPage';
 import DefensaPage from 'Pages/DefensaPage';
 import CapacitacionPage from 'Pages/CapacitacionPage';
 import Error404Page from 'Pages/Error404Page';
+import ContactoPage from 'Pages/Contacto';
 // ---Components
 import NavbarCont from 'Cont/NavbarCont';
 
@@ -23,6 +24,7 @@ function AppContainer() : React.ReactElement {
         <Route exact path="/prevencion" component={PrevencionPage} />
         <Route exact path="/defensa" component={DefensaPage} />
         <Route exact path="/capacitacion" component={CapacitacionPage} />
+        <Route exact path="/contacto" component={ContactoPage} />
         <Route exact path="*" component={Error404Page} />
       </Switch>
     </BrowserRouter>

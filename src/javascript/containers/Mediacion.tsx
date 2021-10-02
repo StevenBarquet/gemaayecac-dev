@@ -9,6 +9,7 @@ import TextBlogContainer from 'CComps/TextBlogContainer';
 import TextBlogContent from 'CComps/TextBlogContent'
 // ---Other
 import { mediacionPageData } from 'Others/global-data'
+import FormMediacion from 'Comp/FormMediacion/FormMediacion';
 
 // ------------------------------------------ COMPONENT-----------------------------------------
 function Mediacion(): React.ReactElement {
@@ -18,7 +19,9 @@ function Mediacion(): React.ReactElement {
   return (
     <>
       <TextBlogContainer isMovil={isMovil} title={mediacionPageData.title}>
-        <TextBlogContent detail={detail} title={title} />
+        <TextBlogContent detail={detail} title={title}>
+          <FormMediacion />
+        </TextBlogContent>
       </TextBlogContainer>
     </>
   );
