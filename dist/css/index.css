@@ -25271,7 +25271,57 @@ footer .contact-sticker svg {
 .profile-img-cont img {
   margin: 20px auto 20px auto;
   width: 240px;
-  border-radius: 50%;
+  border-radius: 10%;
+}
+.profile-name {
+  font-size: 22px;
+}
+.contact-info {
+  margin-top: 120px;
+}
+.contact-info img {
+  width: 80px;
+  display: block;
+  margin: 0px auto 0px auto;
+}
+.contact-info section {
+  margin: 0px auto 0px auto;
+  display: block;
+  width: 220px;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  color: #f47e20;
+  border-bottom: 1px solid #ffffff;
+  padding: 8px;
+}
+.contact-info section span {
+  font-size: 26px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.contact-info div {
+  text-align: center;
+  font-size: 21px;
+  color: #d6d6d6;
+  font-weight: bold;
+}
+.contact-sticker section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-sticker p {
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 5px;
+}
+.contact-sticker svg {
+  font-size: 33px;
+  margin: 0px auto 0px auto;
+  display: block;
 }
 @font-face {
   font-family: 'Questrial';
@@ -25283,7 +25333,7 @@ body {
   margin: 0px;
   padding: 0px;
   background-color: #1d1d1d;
-  background: url(/media/4a608be5be9df220b590.jpg) no-repeat center center fixed;
+  background: url(/media/0714bbebd964e2f39e83.webp) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
