@@ -3,8 +3,9 @@ import React from 'react';
 import { Row, Col } from 'antd';
 import {
   MailOutlined,
-  FacebookOutlined,
-  WhatsAppOutlined
+  LinkedinOutlined,
+  WhatsAppOutlined,
+  YoutubeOutlined
 } from '@ant-design/icons';
 // ---Other
 import { ownerData } from 'Others/store-config';
@@ -31,22 +32,34 @@ function ContactInfo () : React.ReactElement {
       </div>
       <Row justify="center">
         <Col className="contact-sticker" {...grid}>
-          <section>
-            <FacebookOutlined />
-          </section>
-          <p>{ownerData.title.shortStoreName}</p>
+          <a href={ownerData.linkedinUrl} target="_blank" rel="noopener noreferrer">
+            <section>
+              <LinkedinOutlined />
+            </section>
+            <p>Linkedin</p>
+          </a>
         </Col>
         <Col className="contact-sticker" {...grid}>
-          <section>
-            <WhatsAppOutlined />
-          </section>
-          <p>{ownerData.phoneStr}</p>
+          <a href={`https://api.whatsapp.com/send/?phone=52${ownerData.phoneMain}`} target="_blank" rel="noopener noreferrer">
+            <section>
+              <WhatsAppOutlined />
+            </section>
+            <p>{ownerData.phoneStr}</p>
+          </a>
         </Col>
         <Col className="contact-sticker" {...grid}>
           <section>
             <MailOutlined />
           </section>
           <p>{ownerData.contactMail}</p>
+        </Col>
+        <Col className="contact-sticker" {...grid}>
+          <a href={ownerData.youtubeUrl} target="_blank" rel="noopener noreferrer">
+            <section>
+              <YoutubeOutlined />
+            </section>
+            <p>Youtube</p>
+          </a>
         </Col>
       </Row>
     </div>

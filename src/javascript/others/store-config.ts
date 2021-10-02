@@ -7,12 +7,14 @@ export const ownerData = {
     sub: 'AYECAC',
     shortStoreName: 'ABOGADOS'
   },
-  phoneStr: '55 3402 6751',
-  phoneMain: 5534026751,
+  phoneStr: '55 4195 1471',
+  phoneMain: 5541951471,
   contactMail: 'gayecac@amasbconsultores.com',
   facebookUrl: 'https://www.facebook.com/SHELLYstore.boot',
   contactLink: 'http://m.me/SHELLYstore.boot',
   instagramUrl: 'https://www.instagram.com/',
+  linkedinUrl: 'https://www.linkedin.com/in/gema-ayecac-48498292/',
+  youtubeUrl: 'https://www.youtube.com/channel/UChieAIq5Yr_rdmN7vOHNYEg',
   aclaracionPedido: 'https://www.facebook.com/'
 }
 

@@ -1,14 +1,14 @@
 // -----------------------------------DATA-----------------------------------
 export const homePageData = {
   title: 'Semblanza',
-  detail: 'Gema Ayecac, es abogada por la Universidad Nacional Autónoma de México (UNAM), cuenta con estudios de Maestría por el Instituto Tecnológico Autónomo de México (ITAM). Cuenta con amplia capacitación en diversas instituciones como lo son la Universitat de Barcelona, la Universidad de Buenos Aires, Universidad de Cantabria, Asociación Argentina de Estudios Fiscales, entre otras.\n\nCuenta con 17 años de ejercicio profesional en el área corporativa y fiscal.  Es Socia Fundadora de Consultores y Asesores Especializados, Consultoría creada en el 2010.\n\nEs Mediadora Privada Número 520, certificada por el Tribunal Superior de Justicia de la Ciudad de México: https://www.poderjudicialcdmx.gob.mx/cja/mediacion-privada-2/#\n\nEs Especialista en Mediación y Negociación por el Instituto de Mediación de México (IMM) y se encuentra doctorando en la misma institución. Miembro del Colegio Nacional de Mediadores Certificados (CONAMEC): https://www.conamec.com/docs/MEDIADORES_COLEGIADOS_2021.pdf\n\nEs docente en la Universidad Nacional Autónoma de México y ha sido ponente en diversos foros académicos y empresariales. Actúa también como agente capacitador registrado ante la Secretaría del Trabajo y Previsión Social en sus áreas de competencia.'
+  detail: 'Gema Ayecac, es abogada por la Universidad Nacional Autónoma de México (UNAM), cuenta con estudios de Maestría por el Instituto Tecnológico Autónomo de México (ITAM). Cuenta con amplia capacitación en diversas instituciones como lo son la Universitat de Barcelona, la Universidad de Buenos Aires, Universidad de Cantabria, Asociación Argentina de Estudios Fiscales, entre otras.\n\nCuenta con 17 años de ejercicio profesional en el área corporativa y fiscal.  Es Socia Fundadora de Consultores y Asesores Especializados, Consultoría creada en el 2010.\n\nEs Mediadora Privada Número 520, certificada por el Tribunal Superior de Justicia de la Ciudad de México\n\nEs Especialista en Mediación y Negociación por el Instituto de Mediación de México (IMM) y se encuentra doctorando en la misma institución. Miembro del Colegio Nacional de Mediadores Certificados (CONAMEC)\n\nEs docente en la Universidad Nacional Autónoma de México y ha sido ponente en diversos foros académicos y empresariales. Actúa también como agente capacitador registrado ante la Secretaría del Trabajo y Previsión Social en sus áreas de competencia.'
 }
 
 export const mediacionPageData = {
   title: 'MEDIACIÓN',
   data: {
-    title: '¿Es mediable tu conflicto?',
-    detail:  ''
+    title: '¿QUÉ ES LA MEDIACIÓN?',
+    detail:  'La Mediación es un procedimiento voluntario mediante el cual las personas, con el apoyo de un Mediador que será neutral e imparcial, pueden comunicarse y negociar, para encontrar de manera amigable y satisfactoria la solución legal a su problema de carácter Civil-Mercantil o Familiar.\n\n¿CUALES SON SUS VENTAJAS?\nLa mediación es un mecanismo no adversarial que concede a las partes involucradas en un litigio grandes ventajas, entre las que destacan:\n\n\t- Menor costo económico y emocional\n\t- Resolución en menor tiempo\n\t- No existen ganadores ni perdedores\n\t- La decisión es una construcción de las partes, no una decisión de tercero.\n\t- Es un proceso confidencial\n\t- Los convenios otorgados formalmente tienen la fuerza de cosa juzgada, como una sentencia.\n\t- Los acuerdos y convenios formalizados son oponibles ante terceros mediante inscripción en el Registro Público de la Propiedad y el Comercio*\n\t- Contribuye a la paz.'
   }
 }
 
@@ -40,7 +40,7 @@ export const servicesPageData = {
   services: [
     {
       title: 'PREVENCIÓN',
-      data: ['Cumplimiento', 'Capacitación', 'Auditoría'],
+      data: ['Cumplimiento', 'Auditoría'],
       path: '/prevencion'
     },
     {
@@ -50,7 +50,7 @@ export const servicesPageData = {
     },
     {
       title: 'DEFENSA',
-      data: ['Defensa fiscal', 'Civíl - Mercantil', 'Facultades de comprobación', 'Presunción de autoridad'],
+      data: ['Defensa fiscal'],
       path: '/defensa'
     },
     {
