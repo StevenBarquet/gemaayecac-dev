@@ -2,18 +2,18 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 // ---Components
-import Contacto from 'Cont/Contacto';
+import Contactos from 'Cont/Contactos';
 
 // ------------------------------------------ COMPONENT-----------------------------------------
-function ContactPage (): React.ReactElement {
+function ContactoPage (): React.ReactElement {
   return (
     <>
       <Helmet>
-        <title>GEMAAYECAC | Contacto</title>
+        <title>GEMAAYECAC | Contactos</title>
       </Helmet>
-      <Contacto />
+      <Contactos />
     </>
   );
 }
 
-export default ContactPage;
+export default ContactoPage;
