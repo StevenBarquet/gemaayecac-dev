@@ -36,6 +36,13 @@ export const capacitacionPageData = {
   }
 }
 
+export const avisoPrivPageData = {
+  title: 'AVISO DE PRIVACIDAD',
+  data: {
+    title: '',
+    detail:  '¿Quiénes somos?\n\nCONSULTORES Y ASESORES ESPECIALIZADOS, S. DE R.L. DE C.V., mejor conocido como A MAS B CONSULTORES, con domicilio en calle GUILLERMO GONZALEZ CAMARENA 1450, PISO 7, colonia SANTA FE, ciudad SANTA FE, municipio o delegación ALVARO OBREGÓN, c.p. 01219, en la entidad de CIUDAD DE MÉXICO, país MÉXICO, y portal de internet www.gemaayecac.com,mx, es el responsable del uso y protección de sus datos personales, y al respecto le informamos lo siguiente:\n\n¿Para qué fines utilizaremos sus datos personales?\n\nLos datos personales que recabamos de usted, los utilizaremos para las siguientes finalidades que son necesarias para el servicio que solicita:\n\nProporcionar información sobre los servicios\n\nPrestación de los servicios contratados\n\nCumplimiento de contrato\n\nDe manera adicional, utilizaremos su información personal para las siguientes finalidades secundarias que no son necesarias para el servicio solicitado, pero que nos permiten y facilitan brindarle una mejor atención:\n\nEnvío de actualizaciones y novedades\n\nLa negativa para el uso de sus datos personales para estas finalidades no podrá ser un motivo para que le neguemos los servicios y productos que solicita o contrata con nosotros.\n\n¿Dónde puedo consultar el aviso de privacidad integral?\n\nPara conocer mayor información sobre los términos y condiciones en que serán tratados sus datos personales, como los terceros con quienes compartimos su información personal y la forma en que podrá ejercer sus derechos ARCO, puede consultar el aviso de privacidad integral en:\n\nElectrónicamente mediante la página web www.gemaayecac.com.mx\ny de manera presencial en el domicilio del Responsable.'
+  }
+}
 export const servicesPageData = {
   services: [
     {
