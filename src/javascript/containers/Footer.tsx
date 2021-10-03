@@ -7,8 +7,11 @@ import {
   WhatsAppOutlined,
   YoutubeOutlined
 } from '@ant-design/icons';
+// ---Utils
+import CustomLink from 'Utils/Link';
 // ---Other
 import { ownerData } from 'Others/store-config';
+
 // ----------------------------------------COMPONENT----------------------------------------
 export default function Footer(): ReactElement {
   const grid = {
@@ -48,20 +51,20 @@ export default function Footer(): ReactElement {
           </a>
         </Col>
         <Col className="contact-sticker" {...grid}>
-          <a href='mailto:{ownerData.contactMail}' target="_blank" rel="noopener noreferrer">
+          <a href="mailto:{ownerData.contactMail}" target="_blank" rel="noopener noreferrer">
             <section>
               <MailOutlined />
             </section>
-            <p>gayecac@amasbconsultores.com</p>
+            <p>{ownerData.contactMail}</p>
           </a>
         </Col>
       </Row>
       <h2>
-        <a
-          href="/avisoPriv"
+        <CustomLink
+          to="/avisoPriv"
         >
           Revisa nuestro Aviso de Privacidad
-        </a>
+        </CustomLink>
       </h2>
       <h2>
         {`© 2021 ${ownerData.title.shortStoreName}, Inc. Todos los derechos reservados. ¿Te gusta éste sitio? Revisa

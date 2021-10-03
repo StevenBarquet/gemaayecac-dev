@@ -11,7 +11,7 @@ import {
 import { ownerData } from 'Others/store-config';
 import logo from 'Images/logo-full.png';
 // ------------------------------------------ COMPONENT-----------------------------------------
-function ContactInfo () : React.ReactElement {
+function ContactInfo() : React.ReactElement {
   const grid = {
     xs: 12,
     sm: 12,
@@ -48,10 +48,12 @@ function ContactInfo () : React.ReactElement {
           </a>
         </Col>
         <Col className="contact-sticker" {...grid}>
-          <section>
-            <MailOutlined />
-          </section>
-          <p>{ownerData.contactMail}</p>
+          <a href="mailto:{ownerData.contactMail}" target="_blank" rel="noopener noreferrer">
+            <section>
+              <MailOutlined />
+            </section>
+            <p>{ownerData.contactMail}</p>
+          </a>
         </Col>
         <Col className="contact-sticker" {...grid}>
           <a href={ownerData.youtubeUrl} target="_blank" rel="noopener noreferrer">
