@@ -25330,9 +25330,15 @@ footer .contact-sticker svg {
   font-weight: normal;
   font-style: normal;
 }
+html,
 body {
+  width: 100%;
+  height: 100%;
   margin: 0px;
   padding: 0px;
+  overflow-x: hidden;
+}
+body {
   background-color: #1d1d1d;
   background: url(/media/0714bbebd964e2f39e83.webp) no-repeat center center fixed;
   -webkit-background-size: cover;

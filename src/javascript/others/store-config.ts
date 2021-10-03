@@ -16,7 +16,7 @@ export const ownerData = {
   linkedinUrl: 'https://www.linkedin.com/in/gema-ayecac-48498292/',
   youtubeUrl: 'https://www.youtube.com/channel/UChieAIq5Yr_rdmN7vOHNYEg',
   aclaracionPedido: 'https://www.facebook.com/'
-}
+};
 
 export const appConfig = {
   productsURL: 'categoria=Todos',
@@ -42,4 +42,4 @@ export const appConfig = {
       value: 'Sublimado'
     }
   ]
-}
+};
