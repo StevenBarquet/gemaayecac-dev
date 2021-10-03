@@ -51,7 +51,7 @@ export default function Footer(): ReactElement {
           </a>
         </Col>
         <Col className="contact-sticker" {...grid}>
-          <a href="mailto:{ownerData.contactMail}" target="_blank" rel="noopener noreferrer">
+          <a href={`mailto:${ownerData.contactMail}`} target="_blank" rel="noopener noreferrer">
             <section>
               <MailOutlined />
             </section>
