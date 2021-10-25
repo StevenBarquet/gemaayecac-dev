@@ -7,8 +7,8 @@ export const ownerData = {
     sub: 'AYECAC',
     shortStoreName: 'ABOGADOS'
   },
-  phoneStr: '55 4195 1471',
-  phoneMain: 5541951471,
+  phoneStr: '55 4185 1471',
+  phoneMain: 5541851471,
   contactMail: 'gayecac@amasbconsultores.com',
   facebookUrl: 'https://www.facebook.com/SHELLYstore.boot',
   contactLink: 'http://m.me/SHELLYstore.boot',
